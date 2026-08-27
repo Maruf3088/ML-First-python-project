@@ -19,7 +19,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://ml-first-python-project-backend-1.onrender.com/predict",
         {
           iq: Number(iq),
           cgpa: Number(cgpa),
